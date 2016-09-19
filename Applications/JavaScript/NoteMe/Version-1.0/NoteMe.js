@@ -14,12 +14,20 @@ function OnStart(){
   editScroll = app.CreateScroller(1,.5)
    edit = app.CreateTextEdit("", 1);
   menuLay = app.CreateLayout(lin, y);
+ newLay = app.CreateLayou(lin, xyVC);
  
  app.AddLayout(lay1);
   lay1.AddChild(fileName);
   lay1.AddChild(editScroll);
    editScroll.AddChild(edit);
   lay1.AddChild(menuLay);
+ app.AddLayout(newLay);
  
  lay1.SetBackColor(orange);
+  fileName.SetTextColor(white);
+  fileName.SetTextSize(72);
+  fileName.SetTouchable(t);fileName.SetOnTouch(newFile);
 }
+ function newFile(){
+  
+ }
