@@ -15,6 +15,8 @@ function OnStart(){
    edit = app.CreateTextEdit("", 1);
   menuLay = app.CreateLayout(lin, y);
  newLay = app.CreateLayou(lin, xyVC);
+  nameFile = app.CreateTextEdit("", 1);
+  createText = app.CreateText("Create Text");
  
  app.AddLayout(lay1);
   lay1.AddChild(fileName);
@@ -22,12 +24,15 @@ function OnStart(){
    editScroll.AddChild(edit);
   lay1.AddChild(menuLay);
  app.AddLayout(newLay);
+  newLay.AddChild(nameFile);
+  newLay.AddChild(createText);
  
  lay1.SetBackColor(orange);
   fileName.SetTextColor(white);
   fileName.SetTextSize(72);
   fileName.SetTouchable(t);fileName.SetOnTouch(newFile);
+ newLay.SetVisibility(h);
 }
  function newFile(){
-  
+  newLay.Animate(FR);
  }
