@@ -12,6 +12,8 @@ var englishK = document.createElement("SCRIPT");var enkSrc = document.createElem
 var englishL = document.createElement("SCRIPT");var enlSrc = document.createElement("src");enlSrc.value = "http://software.remakenow.us/JavaScript/LanguageDiction/English/Alphabet/wordAlphaL.js";englishL.setAttributeNode(enlSrc);
 var englishM = document.createElement("SCRIPT");var enmSrc = document.createElement("src");enmSrc.value = "http://software.remakenow.us/JavaScript/LanguageDiction/English/Alphabet/wordAlphaM.js";englishM.setAttributeNode(enmSrc);
 var englishN = document.createElement("SCRIPT");var ennSrc = document.createElement("src");ennSrc.value = "http://software.remakenow.us/JavaScript/LanguageDiction/English/Alphabet/wordAlphaN.js";englishN.setAttributeNode(ennSrc);
+var englishO = document.createElement("SCRIPT");var enoSrc = document.createElement("src");enoSrc.value = "http://software.remakenow.us/JavaScript/LanguageDiction/English/Alphabet/wordAlphaO.js";englishO.setAttributeNode(enoSrc);
+var englishP = document.createElement("SCRIPT");var enpSrc = document.createElement("src");enpSrc.value = "http://software.remakenow.us/JavaScript/LanguageDiction/English/Alphabet/wordAlphaP.js";englishP.setAttributeNode(enpSrc);
 function addEnglish(){
  document.getElementsByTagName("DIV")[1].appendChild(englishA);
 }
