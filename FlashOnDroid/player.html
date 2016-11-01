@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+ <html lang="en">
+  <head>
+   <title>$FLASH_PATH$</title>
+   <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=yes" />
+   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+   <script>
+    function enterFullScreen(){
+     var flash = document.getElementById("flash");
+     flash.webkitRequestFullscreen();
+    }
+   </script>
+  </head>
+  <body onload="enterFullScreen();" bgcolor="#000000">
+   <object id="flash" type="application/x-shockwave-flash" data="$FLASH_PATH" width="100%" height="100%">
+    <param name="allowScriptAccess" value="always">
+    <param name="allowNetworking" value="always">
+    <param name="wmode" value="direct">
+    <param name="quality" value="high">
+    <param name="bgcolor" value="$FLASH_BG_COLOR$">
+   </object>
+  </body>
+ </html.
