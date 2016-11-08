@@ -39,15 +39,15 @@
    <div id="theBody">
    </div>
    <script type="text/javascript">
-    var aBody = "<div>";aBody += "</div>";
-    var pBody = "<div>";pBody += "</div>";
-    var sBody = "<div>";sBody += "</div>";
+    var aBody = "<div itemscope itemtype='http://remakenow.us/body' itemprop='body'>";aBody += "</div>";
+    var pBody = "<div itemscope itemtype='http://remakenow.us/body' itemprop='body'>";pBody += "</div>";
+    var sBody = "<div itemscope itemtype='htpp://remakenow.us/body' itemprop='body'>";sBody += "</div>";
     document.getElementById("a").addEventListener("click", showA);
     document.getElementById("p").addEventListener("click", showP);
     document.getElementById("s").addEventListener("click", showS);
-    function showA(){}
-    function showP(){}
-    function showS(){}
+    function showA(){ document.getElementById("theBody").innerHTML = aBody; }
+    function showP(){ document.getElementById("theBody").innerHTML = pBody; }
+    function showS(){ document.getElementById("theBody").innerHTML = sBody; }
    </script>
    <div>
     <p>This website is designed by the makers of <a href="http://remakenow.us/">ReMakeNow</a> if you want to find out more go to their
