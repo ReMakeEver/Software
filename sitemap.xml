@@ -5,10 +5,12 @@
    <loc>http://software.remakenow.us/index.html</loc>
    <news:news>
     <news:publication>
-     <news:name>ReMakeNow Current Software Development</news:name>
+     <news:name>ReMakeNow Current Software Projects</news:name>
      <news:language>en</news:language>
     </news:publication>
     <news:genres>blog</news:genres>
+    <news:title>ReMakeNow Current Software Projects</news:title>
+    <news:publication_date>October 8, 2016</news:publication_date>
     <news:keywords>ReMakeNow, software, development, android, digital</news:keywords>
    </news:news>
   </url>
