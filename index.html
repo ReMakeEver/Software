@@ -36,21 +36,42 @@
      </ul>
     </div>
    </div>
-   <div id="theBody">
+   <div id="theBody" align="center">
     <font size="12" itemscope itemtype="http://re3makenow.us/title" itemprop="title">Applications</font>
     <div align="center">
      <p>Current devlopments that are going on for application development is SoundAt.</p>
+     <p>SoundAt is at a version of 1.05</p>
+     <p>Please read the policy for this app. If you want to get this app go <a href="https://play.google.com/store/apps/details?id=us.remakenow.soundat">here</a>.</p>
     </div>
    </div>
    <script type="text/javascript">
-    var aBody = "<div itemscope itemtype='http://remakenow.us/body' itemprop='body'>";aBody += "</div>";
-    var pBody = "<div itemscope itemtype='http://remakenow.us/body' itemprop='body'>";pBody += "</div>";
-    var sBody = "<div itemscope itemtype='htpp://remakenow.us/body' itemprop='body'>";sBody += "</div>";
+    var aBody = "<div itemscope itemtype='http://remakenow.us/body' itemprop='body'>";
+    aBody += "</div>";
+    var pBody = "<div itemscope itemtype='http://remakenow.us/body' itemprop='body'>";
+    pBody += "<div itemscope itemtype='http://remakenow.us/section'>";
+    pBody += "<ul id='li'>";pBody += "<p>";pBody += "<li><font color='#FFAA00' itemscope itemtype='http://remakenow.us/section' itemprop='section' id='saAS'>SoundAt</font></li>";pBody += "</p>pBody += "</ul>";
+    pBody += "</div>";
+    pBody += "<div id='pSection'></div>";
+    pBody += "</div>";
+     var saSection = "<div itemscope itemtype='http://remakenow.us/body' itemprop='body'>";
+     saSection += "<div align='center'>";
+     saSection += "<ul id='bl'>";
+     saSection += "<li><a href='#saSection1'>Section 1</a></li>";
+     saSection += "</ul>";
+     saSection += "<div align='center'>";
+     saSection += "<h1 id='saSection1' itemscope itemtype='http://remakenow.us/page' itemprop='page'>Section 1</h2><br />";
+     saSection ++ "<p>Terms Of Use</p><br />";
+     saSection += "</div>";
+     saSection += "</div>";
+    var sBody = "<div itemscope itemtype='http://remakenow.us/body' itemprop='body'>";
+    sBody += "</div>";
     document.getElementById("a").addEventListener("click", showA);
     document.getElementById("p").addEventListener("click", showP);
+     document.getElementById("saAS").addEventListener("click", showSAA);
     document.getElementById("s").addEventListener("click", showS);
     function showA(){ document.getElementById("theBody").innerHTML = aBody; }
     function showP(){ document.getElementById("theBody").innerHTML = pBody; }
+     function showSAA(){ document.getElementById("pSection").innerHTML = saSection; }
     function showS(){ document.getElementById("theBody").innerHTML = sBody; }
    </script>
    <div>
