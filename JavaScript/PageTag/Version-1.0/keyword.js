@@ -1,4 +1,3 @@
-var doc = "<!DOCTYPE html>";doc += "<html>";doc += "<head>";doc += "</head>";doc += "</html>";
 var keyLog = "";
 var elementObject = "";
 var key = "itemscope  itemtype='http://remakenow.us/word' itemprop='keyword'>";
@@ -7,6 +6,11 @@ function Keyword(word, element){
  this.element = element;
 }
 Keyword.prototype = {
+ word:{
+  enumberable: true,
+  configurable: true,
+  writable: true
+ }
  add:{ 
   value: function(word, element){
    var object = document.getElementsByTagName(element);
