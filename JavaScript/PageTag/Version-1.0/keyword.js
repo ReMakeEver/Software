@@ -10,7 +10,7 @@ Keyword.prototype = {
   enumberable: true,
   configurable: true,
   writable: true
- }
+ },
  add:{ 
   value: function(word, element){
    var object = document.getElementsByTagName(element);
