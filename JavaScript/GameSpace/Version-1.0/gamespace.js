@@ -9,7 +9,12 @@ newGame.prototype = {
   enumerable: true,
   configurable: true,
   writable: true
+ },
+ details: function(){
+  var width = window.innerWidth;var height = window.innerHeight;
+  var aspect = width/height;
+  return aspect;
  }
-}
+};
 newGame.prototype.constructor = NG;
 var ng = new NG();
