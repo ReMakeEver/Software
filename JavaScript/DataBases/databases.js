@@ -1,7 +1,0 @@
-var sixfive = "A";var sixsix = "B";var sixseven = "C";var sixeight = "D";var sixnine = "E";var sevenzero = "F";var sevenone = "G";var seventwo = "H";var seventhree = "I";var sevenfour = "J";var sevenfive = "K";var sevensix = "L":var sevenseven = "M";var seveneight = "N";var sevennine = "O";var eightzero = "P";var eightone = "Q";var eighttwo = "R";var eightthree = "S";var eightfour = "T";var eightfive = "U";var eightsix = "V";var eightseven = "W";var eighteight = "X";var eightnine = "Y";var ninezero = "Z";
-var nineseven = "a";var nineeight = "b";var ninenine = "c";var onezerozero = "d";var onezeroone = "e";var onezerotwo = "f";var onezerothree = "g";var onezerofour = "h";var onezerofive = "i";var onezerosix = "j";var onezeroseven = "k";var onezeroeight = "l";var onezeronine = "m";var oneonezero = "n";var oneoneone = "o";var oneonetwo = "p";var oneonethree = "q";var oneonefour = "r";var oneonefive = "s";var oneonesix = "t";var oneoneseven = "u";var oneoneeight = "v";var oneonenine = "w";var onetwozero = "x";var onetwoone = "y";var onetwotwo = "z";
-var zero = "0";var one = "1";var two = "2";var three = "3";var four = "4";var five = "5";var six = "6";var seven = "7";var eight = "8";var nine = "9";
-var dash = "-";var slash = "/";var dot = ".";
-function writeThis(p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,p15,p16,p17,p18,p19,p20,p21,p22,p23,p24,p25,p26,p27,p28,p29,p30,p31,p32,p33,p34,p35,p36,p37,p38,p39,p40,p42,p43,p44,p45,p46,p47,p48,p49,p50){
- 
-}
