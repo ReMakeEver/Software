@@ -1,1 +1,1 @@
-var hex = new Array();
+var hex = new Array("#000000","#000001");
