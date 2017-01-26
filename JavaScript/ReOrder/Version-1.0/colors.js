@@ -8,9 +8,7 @@ function colorOrder(colors){
 }
 function co2(colorList){
  var array = colorList.split(",");
- for(var i = 0;i<array.length;i++){
-  
- }
+ for(){}
 }
 function co3(){
 }
