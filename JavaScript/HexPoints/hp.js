@@ -19,7 +19,7 @@ function getPoints(text){
 function gp1(text){
  var x = text;
  var p1 = 0;
- if(x[0]=="0"){p1 = 0;}else{if(x[0]=="1"){p1 = 1;}else{if(x[0]=="2"){p1 = 2;}else{if(x[0]=="3"){p1 = 3;}else{if(x[0]=="4"){p1 = 4;}else{if(x[0]=="5"){p1 = 5;}else{if(x[0]=="6"){p1 = 6;}else{if(x[0]=="7"){p1 = 7;}else{if(x[0]=="8"){p1 = 8;}else{if(x[0]=="9"){p1 = 9;}else{if(x[0]=="a"||x[0]=="A"){p1 = 10;}else{if(x[0]=="b"||x[0]=="B"){p1 = 11;}else{if(x[0]=="c"||x[0]=="C"){p1 = 12;}else{if(x[0]=="d"||x[0]=="D"){p1 = 13;}else{if(x[0]=="e"||x[0]=="E"){p1 = 14;}else{if(x[0]=="f"||x[0]=="F"){p1 = 15;}}}}}}}}}}}}}}}
+ if(x[0].match(/[0-9]/g)=="true"){p1 = Math.abs(x[0]);}else{if(x[0]=="a"||x[0]=="A"){p1 = 10;}else{if(x[0]=="b"||x[0]=="B"){p1 = 11;}else{if(x[0]=="c"||x[0]=="C"){p1 = 12;}else{if(x[0]=="d"||x[0]=="D"){p1 = 13;}else{if(x[0]=="e"||x[0]=="E"){p1 = 14;}else{if(x[0]=="f"||x[0]=="F"){p1 = 15;}}}}}}
  }
  var points = p1;
  return points;
@@ -27,8 +27,7 @@ function gp1(text){
 function gp2(text){
  var x = text;
  var p1 = 0;var p2 = 0;
- if(x[0]=="0"){p1 = 0;}else{if(x[0]=="1"){p1 = 1;}else{if(x[0]=="2"){p1 = 2;}else{if(x[0]=="3"){p1 = 3;}else{if(x[0]=="4"){p1 = 4;}else{if(x[0]=="5"){p1 = 5;}else{if(x[0]=="6"){p1 = 6;}else{if(x[0]=="7"){p1 = 7;}else{if(x[0]=="8"){p1 = 8;}else{if(x[0]=="9"){p1 = 9;}else{if(x[0]=="a"||x[0]=="A"){p1 = 10;}else{if(x[0]=="b"||x[0]=="B"){p1 = 11;}else{if(x[0]=="c"||x[0]=="C"){p1 = 12;}else{if(x[0]=="d"||x[0]=="D"){p1 = 13;}else{if(x[0]=="e"||x[0]=="E"){p1 = 14;}else{if(x[0]=="f"||x[0]=="F"){p1 = 15;}}}}}}}}}}}}}}} 
- if(x[1]=="0"){p2 = 0;}else{if(x[1]=="1"){p2 = 1;}else{}}
+ if(x[0].match(/[0-9]/g)==true){p1 = Math.abs(x[0]);}
  var points = p1+p2;
  return points;
 }
