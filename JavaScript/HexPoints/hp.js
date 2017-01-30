@@ -19,5 +19,6 @@ function hex(hex){
   if(p=="d"||p=="D"){points += 13;}
   if(p=="e"||p=="E"){points += 14;}
   if(p=="f"||p=="F"){points += 15;}
+  return points;
  }
 }
