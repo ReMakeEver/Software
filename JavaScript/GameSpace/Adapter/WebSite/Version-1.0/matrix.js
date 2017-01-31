@@ -1,0 +1,10 @@
+var matrix = new Array(4);
+matrix[0] = [0,0,0,0];
+matrix[1] = [0,0,0,0];
+matrix[2] = [0,0,0,0];
+matrix[3] = [0,0,0,0];
+var m11 = matrix[0][0];var m12 = matrix[0][1];var m13 = matrix[0][2];
+var m21 = matrix[1][0];var m22 = matrix[1][1];var m23 = matrix[1][2];
+var m31 = matrix[2][0];var m32 = matrix[2][1];var m33 = matrix[2][2];
+var ww = window.innerWidth;var wh = window.innerHeight;
+var pw = 1 / ww;var ph = 1 / wh;
