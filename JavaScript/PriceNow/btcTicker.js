@@ -9,7 +9,7 @@ function getBTCPrice(id){
   if(this.readyState == 4 && this.status == 200){
    var text = this.responseText;
    var price = JSON.parse(text);
-   document.getElementById(id).innerHTML = price;
+   document.getElementById(id).innerHTML = price.ticker.price;
   }
  };
  xml.open("GET", "https://api.cryptonator.com/api/ticker/btc-usd", true);
