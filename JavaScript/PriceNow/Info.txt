@@ -1,2 +1,0 @@
-var btcPrice = "Bitcoin(BTC)";var ltcPrice = "Litecoin(LTC)";var curPrice = "Curecoin(CURE)";
-var usdPrice = "Dolla(USD)";
