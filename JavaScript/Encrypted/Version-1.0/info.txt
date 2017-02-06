@@ -1,0 +1,1 @@
+only encrypts letters that are given.
