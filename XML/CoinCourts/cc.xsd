@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <cc:schema xmlns="http://software.remakenow.us/" targetNamespace="http://software.remakenow.us/" xmlns:cc="http://software.remakenow.us/XML/CoinCourts" cc:schemaLocation="CoinCourts">
+  <cc:element name="coins">
+   <cc:complexType>
+    <cc:element name="coin" type="cc:string" minOccurs="1" maxOccurs="unbounded" />
+    <cc:element name="total" type="cc:string" minOccurs="1" maxOccurs="1" />
+   </cc:complexType>
+  </cc:element>
+   <cc:element name="coin">
+    <cc:complexType>
+     <cc:sequence>
+      <cc:attribute name="id" type="cc:string" minOccurs="1" maxOccurs="1" />
+      <cc:attribute name="value" type="cc:string" minOccurs="1" maxOccurs="1" />
+      <cc:attribute name="owner" type="cc:string" minOccurs="1" maxOccurs="1" />
+     </cc:sequence>
+    </cc:complexType>
+   </cc:element>
+   <cc:element name="total">
+    <cc:complexType>
+     <cc:attribute name="total" type="cc:string" minOccurs="1" maxOccurs="1" />
+    </cc:complexType>
+   </cc:element>
+ </cc:schema>
