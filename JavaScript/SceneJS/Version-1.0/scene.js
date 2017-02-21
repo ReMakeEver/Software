@@ -1,18 +1,25 @@
 var SCENE = {
- "NewScene": function(back,animated){
-  var canvas = document.createElement("CANVAS");
-  var width = document.createAttribute("width");width.value = window.innerWidth;canvas.setAttributeNode(width);
-  var height = document.createAttribute("height");height.value = window.innerHeight;canvas.setAttributeNode(height);
-  if(back=="morning"){
-   if(animated=="yes"){
-   }else{
-    if(animated=="no"){
-     var context = canvas.getContext("2d");
-     var gradient = canvas.createLinearGradient(0,window.innerWidth,0,0);
-     gradient.addColorStop(0, "#FF5500");gradient.addColorStop(1, "#0088FF");
-     context.fillStyle = gradient;context.fillRect(0,0,window.innerWidth,window.innerHeight);
-    }
-   }
+ "NewScene": function(back){createScene(back);}
+};
+function createScene(back){
+ var canvas1 = '<canvas width="';var canvas2 = '" height="';var canvas3 = '"></canvas>';
+ var width = window.innerWidth;var height = window.innerHeight;
+ var string = canvas1+width+canvas2+height+canvas3;
+ document.body.innerHTML += string;
+ if(back==null||back==undefined){
+  setStyle("#000000");
+ }else{
+  if(back=="normal"){
+   setStyle("normal","medium");
   }
  }
-};
+}
+function setStyle(style,level){
+ if(style=="#000000" && level==null){
+  var canvas = document.getElementsByTagName("CANVAS")[0];
+  var context = canvas.getContext("2d");
+  context.fillStyle = style;
+  context.fillRect(0,0,window.innerWidth,window.innerHeight);
+ }else{
+ }
+}
